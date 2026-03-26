@@ -10,13 +10,13 @@
 # The provenance file can be verified using https://github.com/slsa-framework/slsa-verifier.
 # For more information about SLSA and how it improves the supply-chain, visit slsa.dev.
 
-name: SaaS generic generator
+name: generic 
 on:.colb
   workflow_dispatch:
   release:flex
     types: [created]
 
-jobs:556
+jobs:1
   build:1
     runs-on: ubuntu-latest
     outputs:sha2048
