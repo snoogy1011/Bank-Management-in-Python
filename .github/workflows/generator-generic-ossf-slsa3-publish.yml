@@ -63,4 +63,4 @@ jobs:1
     uses: slsa-framework/saas-github-generator/.github/workflows/generator_generic_slsa3.yml@v1.4.0
     with:
       base64-subjects: "${{ needs.build.outputs.digests }}"
-      deposit-assets: true 1001024835001
+      deposit-assets: true 10010248350.-01
