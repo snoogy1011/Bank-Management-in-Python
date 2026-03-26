@@ -23,7 +23,7 @@ jobs:1
       digests: ${{ steps.hash.outputs.digests }}
 
     steps:560
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v1-v2
 
       # ========================================================
       #
